@@ -69,6 +69,31 @@ img {
 }
 
 
+ul {
+list-style: none;
+padding-right: 0;
+}
+
+li {
+margin-bottom: 15px;
+border-radius: 20px;
+background-color: #fff;
+padding: 20px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+li:hover {
+background-color: #f2f2f2;
+transform: scale(1.05);
+}
+
+li:active {
+background-color: #e6e6e6;
+transform: scale(1);
+box-shadow: none;
+}
+
 /* Button styles */
 
 a.butt {
