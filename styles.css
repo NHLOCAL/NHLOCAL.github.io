@@ -44,6 +44,12 @@ main {
 }
 
 
+.mail {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
 h2 {
   color: #00A2E8;
   margin-top: 40px;
