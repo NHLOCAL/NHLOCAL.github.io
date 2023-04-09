@@ -12,31 +12,31 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://nhlocal.github.io/index</loc>
+        <loc>https://nhlocal.github.io/index.html</loc>
         <lastmod>2023-04-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nhlocal.github.io/Singles-Sorter/index</loc>
+        <loc>https://nhlocal.github.io/Singles-Sorter/index.html</loc>
         <lastmod>2023-04-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nhlocal.github.io/Singles-Sorter/site/help</loc>
+        <loc>https://nhlocal.github.io/Singles-Sorter/site/help.html</loc>
         <lastmod>2023-04-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://nhlocal.github.io/Singles-Sorter/site/download</loc>
+        <loc>https://nhlocal.github.io/Singles-Sorter/site/download.html</loc>
         <lastmod>2023-04-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://nhlocal.github.io/Singles-Sorter/site/Survey</loc>
+        <loc>https://nhlocal.github.io/Singles-Sorter/site/Survey.html</loc>
         <lastmod>2023-04-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
