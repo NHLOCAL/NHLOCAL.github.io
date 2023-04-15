@@ -21,7 +21,7 @@ window.addEventListener("scroll", () => {
       item.style.transform = "scale(1.1)";
       item.style.borderRadius = "10px";
       item.style.boxShadow = "2px 2px 10px rgba(0,0,0,0.2)";
-      item.style.backgroundColor = "#e6e6e6"; // Add this line to change the background color
+      item.style.backgroundColor = "#f2f2f2"; // Add this line to change the background color
     } else {
       // set the CSS properties for the other list items
       item.style.transform = "scale(1)";
