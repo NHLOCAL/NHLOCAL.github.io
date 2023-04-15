@@ -56,11 +56,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-img {
-  border-radius: 50%;
-  width: 200px;
-  object-fit: cover;
-}
 
 .button-image {
   width: 120px;
@@ -87,6 +82,17 @@ background-color: #fff;
 padding: 20px;
 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 transition: all 0.3s ease;
+}
+
+li > a {
+  font-size: 20px;
+}
+
+a > img {
+  border-radius: 1%;
+  opacity: 1;
+  width: 200px;
+  object-fit: cover;
 }
 
 li:hover {
