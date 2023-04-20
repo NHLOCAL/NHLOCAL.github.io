@@ -31,3 +31,13 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+
+/* Add this JavaScript code to toggle the 'clicked' class on the 'header' element */
+document.querySelector('header').addEventListener('click', function() {
+  var header = this;
+  header.classList.add('clicked');
+  setTimeout(function() {
+    header.classList.remove('clicked');
+  }, 3000);
+});

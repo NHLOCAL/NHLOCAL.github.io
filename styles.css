@@ -1,27 +1,61 @@
-/* Style page content */
 .main {
   padding: 0px 10px;
 }
+
 
 header {
   background-color: #00A2E8;
   padding: 10px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-/* Header Section */
-.header {
-  width: 100%;
-  max-width: 800px; /* Change this value as per your requirement */
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  background-color: #f5f5f5;
+header::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  animation: none; /* disable the animation by default */
+  animation-fill-mode: forwards;
 }
+
+header.clicked::after {
+  animation: ripple 2s linear; /* enable the animation when the element is clicked */
+}
+
+@keyframes ripple {
+  0% {
+    width: 0;
+    opacity: 0.5;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+
+/* Add this rule to display the ripple effect on page load */
+header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  animation: ripple 2s linear;
+  animation-fill-mode: forwards;
+}
+
+
+
 
 
 body {
@@ -76,6 +110,7 @@ padding-right: 0;
 }
 
 li {
+cursor: pointer;
 margin-bottom: 20px;
 border-radius: 12px;
 background-color: #fff;
