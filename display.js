@@ -1,43 +1,37 @@
-// get all the list items
 const listItems = document.querySelectorAll("li");
+const header = document.querySelector("header");
 
-// get the height of the viewport
 const viewportHeight = window.innerHeight;
+let isScrolling = false;
 
-// listen for scroll events
-window.addEventListener("scroll", () => {
-  // get the scroll position of the page
+function updateItemStyles() {
   const scrollPosition = window.scrollY;
 
-  // loop through all the list items
   listItems.forEach((item) => {
-    // get the top and bottom position of the list item
     const itemTop = item.offsetTop;
     const itemBottom = item.offsetTop + item.offsetHeight;
 
-    // check if the list item is in the center of the viewport
-    if (itemTop < scrollPosition + viewportHeight / 2 && itemBottom > scrollPosition + viewportHeight / 2) {
-      // set the CSS properties for the highlighted list item
-      item.style.transform = "scale(1.1)";
-      item.style.borderRadius = "10px";
-      item.style.boxShadow = "2px 2px 10px rgba(0,0,0,0.2)";
-      item.style.backgroundColor = "#f2f2f2"; // Add this line to change the background color
-    } else {
-      // set the CSS properties for the other list items
-      item.style.transform = "scale(1)";
-      item.style.borderRadius = "5px";
-      item.style.boxShadow = "2px 2px 5px rgba(0,0,0,0.1)";
-      item.style.backgroundColor = ""; // Reset the background color for other list items
-    }
+    const isItemInViewport = itemTop < scrollPosition + viewportHeight / 2 && itemBottom > scrollPosition + viewportHeight / 2;
+    item.classList.toggle("highlighted", isItemInViewport);
   });
-});
+}
 
+function handleScroll() {
+  if (!isScrolling) {
+    isScrolling = true;
+    window.requestAnimationFrame(() => {
+      updateItemStyles();
+      isScrolling = false;
+    });
+  }
+}
 
-/* Add this JavaScript code to toggle the 'clicked' class on the 'header' element */
-document.querySelector('header').addEventListener('click', function() {
-  var header = this;
-  header.classList.add('clicked');
-  setTimeout(function() {
-    header.classList.remove('clicked');
+function toggleHeaderAnimation() {
+  header.classList.add("clicked");
+  setTimeout(() => {
+    header.classList.remove("clicked");
   }, 3000);
-});
+}
+
+window.addEventListener("scroll", handleScroll);
+header.addEventListener("click", toggleHeaderAnimation);
