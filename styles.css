@@ -252,3 +252,16 @@ li.highlighted:active  {
   }
 }
 
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+    background-color:  #0077b3;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:  #005580;
+  }
