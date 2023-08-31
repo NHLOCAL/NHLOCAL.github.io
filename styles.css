@@ -115,7 +115,7 @@ li > a {
 }
 
 a > img {
-  border-radius: 1%;
+  border-radius: 2%;
   opacity: 1;
   object-fit: cover;
 }
