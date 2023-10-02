@@ -1,38 +1,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://nhlocal.github.io/</loc>
-        <lastmod>2023-06-16</lastmod>
+        <lastmod>2023-10-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://nhlocal.github.io/Singles-Sorter/</loc>
-        <lastmod>2023-07-17</lastmod>
+        <lastmod>2023-10-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://nhlocal.github.io/shir-bot</loc>
-        <lastmod>2023-07-17</lastmod>
+        <lastmod>2023-10-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://nhlocal.github.io/Singles-Sorter/site/help</loc>
-        <lastmod>2023-06-16</lastmod>
+        <lastmod>2023-10-02</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://nhlocal.github.io/Singles-Sorter/site/download</loc>
-        <lastmod>2023-07-15</lastmod>
+        <lastmod>2023-10-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://nhlocal.github.io/Singles-Sorter/site/Survey</loc>
-        <lastmod>2023-07-17</lastmod>
+        <lastmod>2023-10-02</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
+        <priority>0.5</priority>
     </url>
 </urlset>
