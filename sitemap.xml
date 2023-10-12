@@ -17,6 +17,13 @@
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
+    </url>
+    <url>
+        <loc>https://nhlocal.github.io/shir-bot/site/list</loc>
+        <lastmod>2023-10-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
     <url>
         <loc>https://nhlocal.github.io/Singles-Sorter/site/help</loc>
         <lastmod>2023-10-02</lastmod>
