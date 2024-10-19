@@ -264,3 +264,12 @@ li.highlighted:active  {
   ::-webkit-scrollbar-thumb:hover {
     background-color:  #005580;
   }
+  
+  
+/* הגדרת גודל התמונה לרוחב מקסימלי של 300 פיקסלים במסכים קטנים */
+@media (max-width: 600px) {
+  li img {
+    max-width: 300px;
+    height: auto; /* כדי לשמור על הפרופורציות של התמונה */
+  }
+}
