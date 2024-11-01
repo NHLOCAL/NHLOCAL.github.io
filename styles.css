@@ -273,3 +273,70 @@ li.highlighted:active  {
     height: auto; /* כדי לשמור על הפרופורציות של התמונה */
   }
 }
+
+
+/* סגנונות עבור הודעת העוגיות */
+.cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  min-width: 250px;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.cookie-banner.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cookie-banner p {
+  margin: 0;
+  padding-right: 10px;
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cookie-button {
+  background-color: #00A2E8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.cookie-button:hover {
+  background-color: #007bb5;
+}
+
+@media (max-width: 600px) {
+  .cookie-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cookie-banner p {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .cookie-button {
+    width: 100%;
+  }
+}
