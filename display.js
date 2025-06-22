@@ -88,3 +88,23 @@ header.addEventListener("click", toggleHeaderAnimation);
       cookieBanner.classList.remove('show');
     });
   });
+
+  // דינמיות לקישור מייל: Gmail ל-Windows, mailto לאחרים
+  function getMailLink() {
+    var email = 'NH.LOCAL11@gmail.com';
+    var isWindows = navigator.userAgent.indexOf('Windows') !== -1;
+    var isAndroid = /Android/i.test(navigator.userAgent);
+    if (isWindows && !isAndroid) {
+      return 'https://mail.google.com/mail/?view=cm&to=' + encodeURIComponent(email);
+    } else {
+      return 'mailto:' + email;
+    }
+  }
+  function setDynamicMailLinks() {
+    var mailLink = getMailLink();
+    var el1 = document.getElementById('dynamic-mail-link');
+    var el2 = document.getElementById('dynamic-mail-link-bottom');
+    if (el1) el1.href = mailLink;
+    if (el2) el2.href = mailLink;
+  }
+  document.addEventListener('DOMContentLoaded', setDynamicMailLinks);
