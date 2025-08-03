@@ -6,32 +6,32 @@ projects:
     tags: ['AI', 'YouTube', 'וידאו']
   - title: 'שיר-בוט'
     url: 'https://shir-bot.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
-    description: 'אתר להורדת שירים בחיפוש חופשי מתוך מאגר עצום של קרוב ל-70,000 שירים'
+    description: "גלו אמנים פופולריים ושירים חדשים במאגר המוזיקה היהודית הגדול. חיפוש והורדה קלה של שירים מכל הז'אנרים"
     image: 'photos/shir-bot.png'
     tags: ['Web', 'מוזיקה']
   - title: 'ווינדוס 11 23H2 + תוכנות'
     url: 'https://mitmachim.top/post/741548'
-    description: 'קובץ ISO של Windows 11 מוכן לשימוש, כולל כל התוכנות הבסיסיות להתקנה מהירה'
+    description: 'קובץ ISO של Windows 11 מוכן לשימוש, כולל כל התוכנות הבסיסיות להתקנה מהירה. מאות משתמשים כבר הורידו והתקינו!'
 
     tags: ['Windows', 'ISO', 'מומלץ']
   - title: 'שמור וזכור'
     url: 'https://shamor-zachor.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
-    description: 'כלי ייחודי למעקב אחר לימוד ספרות תורנית בצורה מסודרת וברורה'
+    description: 'כלי ייחודי המאפשר לעקוב אחר ההתקדמות במגוון רחב של ספרים מארון הספרים היהודי, כולל חזרות, ומציג את הנתונים בממשק פשוט וידידותי למשתמש'
     image: 'https://github.com/NHLOCAL/Shamor-Zachor/blob/main/assets/screen.png?raw=true'
     tags: ['Web', 'לימוד']
   - title: 'מסדר הסינגלים'
     url: 'https://singles-sorter.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
-    description: 'תוכנה לארגון אוטומטי של אוסף המוזיקה שלכם. ממיינת קבצים לתיקיות לפי שם אמן'
+    description: 'התוכנה נועדה לארגן באופן אוטומטי את אוסף המוזיקה שלכם. היא סורקת, מזהה וממיינת את קבצי המוזיקה שלכם לתיקיות מסודרות לפי שם האמן, כך שתוכלו למצוא את כל השירים האהובים עליכם בקלות ובמהירות'
     image: 'https://github.com/NHLOCAL/Singles-Sorter/blob/main/versions.data/program-screen.png?raw=true'
     tags: ['Windows', 'מוזיקה', 'תוכנה']
   - title: 'זה קל!'
     url: 'https://ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
-    description: 'אתר שמנגיש מונחי טכנולוגיה ומחשבים בעברית בצורה פשוטה וברורה'
+    description: 'אתר המנגיש מונחי טכנולוגיה ומחשבים בעברית בצורה פשוטה וברורה'
     image: 'https://nhlocal.github.io/ZeKal/assets/images/preview.png'
     tags: ['Web', 'לימוד']
   - title: 'AiTimeline'
     url: 'https://nhlocal.github.io/AiTimeline/?utm_source=nhlocal.github.io&utm_medium=site'
-    description: 'ציר זמן של אירועים בולטים בתחום הבינה המלאכותית הגנרטיבית בין 2022-2024'
+    description: 'ציר זמן של אירועים בולטים בתחום הבינה המלאכותית הגנרטיבית החל מהופעת GPT 3 ועד היום'
     image: 'https://nhlocal.github.io/AiTimeline/assets/preview.png'
     tags: ['Web', 'AI']
   - title: 'מסדר ההורדות'
@@ -41,7 +41,7 @@ projects:
     tags: ['סקריפט', 'Windows', 'מומלץ']
   - title: 'מושך התמונות'
     url: 'https://github.com/NHLOCAL/Pulls-pictures'
-    description: 'מוציא את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב'
+    description: 'סקריפט קטן וקל משקל השולף את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב'
 
     tags: ['סקריפט', 'Windows']
   - title: 'מוצא הכפולים'
@@ -71,7 +71,7 @@ projects:
     tags: ['סקריפט', 'גיבוי']
   - title: 'ג''יבריש לעברית'
     url: 'https://github.com/NHLOCAL/jibrish-to-hebrew'
-    description: 'פונקציה הממירה טקסט עברי משובש (שהוקלד באנגלית) לעברית תקנית'
+    description: 'פונקציה הממירה טקסט עברי משובש לעברית תקנית. מתאים במיוחד עבור קבצי mp3 ישנים'
 
     tags: ['Python', 'כלי']
   - title: 'מעתיק קבצים ל-WSA'
@@ -81,12 +81,12 @@ projects:
     tags: ['Windows', 'WSA']
   - title: 'בודק קיום קבצים'
     url: 'https://github.com/NHLOCAL/check-if-exists'
-    description: 'פונקציה הבודקת אם רשימת קבצים מסוימת כבר קיימת במחשב'
+    description: 'סקריפט פייתון קטן הבודק אם רשימת קבצים מסוימת כבר קיימת בתיקית היעד. מה שמאפשר למנוע העתקה כפולה של קבצים'
 
     tags: ['Python', 'כלי']
   - title: 'מעצב האצווה'
     url: 'https://github.com/NHLOCAL/batch-designer'
-    description: 'מסייע בעיצוב סקריפטים בעברית על ידי היפוך וכיוון הטקסט בחלון'
+    description: 'מסייע בעיצוב קבצי אצווה בעברית על ידי היפוך ומרכוז הטקסט בחלון'
     image: 'https://github.com/NHLOCAL/batch-designer/blob/main/inside/יעד.png?raw=true'
     tags: ['סקריפט', 'כלי']
   - title: 'הופך הכתב'
@@ -96,12 +96,12 @@ projects:
     tags: ['סקריפט', 'כלי']
   - title: 'יוצר האייקונים'
     url: 'https://mitmachim.top/post/430450'
-    description: 'סקריפט קטן היוצר סמל (אייקון) מותאם אישית לדיסקים וכוננים חיצוניים'
+    description: 'סקריפט קטן היוצר אייקון מותאם אישית לדיסק און קי וכוננים חיצוניים'
 
     tags: ['סקריפט', 'Windows']
   - title: 'מזהה גרסת קובץ ISO'
     url: 'https://mitmachim.top/post/443502'
-    description: 'סקריפט המזהה את גרסת ה-Windows מתוך קובץ ISO, גם ללא שם מפורש'
+    description: 'סקריפט המזהה את גרסת ה-Windows מתוך קובץ ISO, גם כשהמידע לא מופיע בשם הקובץ'
 
     tags: ['סקריפט', 'Windows', 'ISO']
   - title: 'מבטל חסימת קבצים'
