@@ -5,7 +5,6 @@ layout: default
   <div class="header-top">
     <div class="action-buttons">
       <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener" class="action-btn" title="הפרופיל שלי ב-GitHub"><i class="fab fa-github"></i></a>
-      <a href="{{ site.mitmachim_index_url }}" target="_blank" rel="noopener" class="action-btn" title="אינדקס הפרויקטים בפורום"><i class="fas fa-list-alt"></i></a>
       <a href="#" class="action-btn dynamic-mail-link" title="שלח משוב במייל"><i class="fas fa-envelope"></i></a>
     </div>
     <button id="theme-toggle" class="theme-toggle" title="החלף ערכת נושא">
@@ -25,12 +24,16 @@ layout: default
   <section class="section">
     <div class="highlight-grid">
       <a href="https://tools.ze-kal.top" target="_blank" rel="noopener" class="highlight-card">
-        <h3><i class="fas fa-tools"></i> ארגז הכלים שלי</h3>
+        <h3><i class="fas fa-tools"></i> ארגז הכלים</h3>
         <p>כלים שימושיים וקלי משקל, לפתרון בעיות קטנות במהירות, ישירות מהדפדפן.</p>
       </a>
       <a href="https://blog.ze-kal.top" target="_blank" rel="noopener" class="highlight-card">
         <h3><i class="fas fa-blog"></i> הבלוג שלי</h3>
-        <p>יומן מסע אישי בחזית מהפכת ה-AI. פרויקטים, מדריכים ועדכונים מעולם הטכנולוגיה.</p>
+        <p>יומן מסע אישי בחזית מהפכת ה-AI, עם פרויקטים, מדריכים ועדכונים.</p>
+      </a>
+      <a href="{{ site.mitmachim_index_url }}" target="_blank" rel="noopener" class="highlight-card">
+        <h3><i class="fas fa-star"></i> מתמחים טופ</h3>
+        <p>אינדקס הפרויקטים המלא בפורום, כולל דיונים, עדכונים ותגובות משתמשים</p>
       </a>
     </div>
   </section>
@@ -42,13 +45,15 @@ layout: default
     <div class="project-grid">
       {% for project in site.data.projects.projects %}
         <a href="{{ project.url }}" target="_blank" rel="noopener" class="project-card">
-          <div class="card-image-wrapper {% if project.image == blank %}no-image{% endif %}">
-            {% if project.image != blank %}
+          {% if project.image and project.image != '' %}
+            <div class="card-image-wrapper">
               <img src="{{ project.image }}" alt="תצוגה מקדימה של {{ project.title }}" class="card-image">
-            {% else %}
-              <i class="fas fa-code"></i>
-            {% endif %}
-          </div>
+            </div>
+          {% else %}
+            <div class="card-image-wrapper no-image {% cycle 'p-colors': 'p-color-1', 'p-color-2', 'p-color-3', 'p-color-4' %}">
+              <span class="card-initials">{{ project.title | slice: 0, 1 | upcase }}</span>
+            </div>
+          {% endif %}
           <div class="card-content">
             <h4>{{ project.title }}</h4>
             <p>{{ project.description }}</p>

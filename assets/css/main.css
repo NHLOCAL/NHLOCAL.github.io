@@ -127,7 +127,7 @@ body {
 
 .highlight-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
 
@@ -187,14 +187,23 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
-.card-image-wrapper.no-image {
-  background: linear-gradient(45deg, var(--accent), var(--accent-hover));
+
+.card-image-wrapper.no-image .card-initials {
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
+  user-select: none;
 }
-.card-image-wrapper.no-image .fa-code {
-  font-size: 4rem;
-  color: rgba(255, 255, 255, 0.5);
-}
+.p-color-1 { background: linear-gradient(45deg, #0d9488, #0f766e); }
+.p-color-2 { background: linear-gradient(45deg, #be123c, #9f1239); }
+.p-color-3 { background: linear-gradient(45deg, #4f46e5, #4338ca); }
+.p-color-4 { background: linear-gradient(45deg, #d97706, #b45309); }
+[data-theme="dark"] .p-color-1 { background: linear-gradient(45deg, #14b8a6, #2dd4bf); }
+[data-theme="dark"] .p-color-2 { background: linear-gradient(45deg, #f43f5e, #fb7185); }
+[data-theme="dark"] .p-color-3 { background: linear-gradient(45deg, #6366f1, #818cf8); }
+[data-theme="dark"] .p-color-4 { background: linear-gradient(45deg, #f59e0b, #fbbf24); }
 
 .card-image {
   width: 100%;
@@ -274,6 +283,10 @@ body {
   transition: background-color 0.3s ease;
   white-space: nowrap;
 }
+[data-theme="dark"] .cookie-button {
+  color: #111827;
+}
+
 .cookie-button:hover { background-color: var(--accent-hover); }
 
 @media (max-width: 600px) {
