@@ -61,9 +61,17 @@ function setCookie(name, value, options = {}) {
 
 function getMailLink() {
   const email = 'NH.LOCAL11@gmail.com';
+  // בדוק אם מערכת ההפעלה היא Windows
   const isWindows = navigator.userAgent.includes('Windows');
-  const isAndroid = /Android/i.test(navigator.userAgent);
-  return (isWindows && !isAndroid) ? `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(email)}` : `mailto:${email}`;
+
+  // אם המשתמש ב-Windows, פתח את ממשק האינטרנט של Gmail.
+  // עבור כל מערכת הפעלה אחרת (macOS, Linux, Android, iOS), 
+  // השתמש ב-mailto: כדי לפתוח את תוכנת המייל המוגדרת כברירת מחדל.
+  if (isWindows) {
+    return `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(email)}`;
+  } else {
+    return `mailto:${email}`;
+  }
 }
 
 function setDynamicMailLinks() {
