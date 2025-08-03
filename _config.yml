@@ -1,0 +1,10 @@
+title: "כל הפרויקטים של NHLOCAL"
+author: "NH.LOCAL"
+description: "ברוכים הבאים לאתר NHLOCAL, המקום בו תוכלו למצוא מגוון סקריפטים, כלים ותוכנות לשימוש יומיומי. האתר כולל פרויקטים כמו מסדר הסינגלים, שיר-בוט, מסייע ההורדות ועוד."
+email: "NH.LOCAL11@gmail.com"
+github_username: "NHLOCAL"
+mitmachim_index_url: "https://mitmachim.top/post/547285"
+
+# Build settings
+plugins:
+  - jekyll-feed

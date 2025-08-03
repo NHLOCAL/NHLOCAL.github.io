@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://nhlocal.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGD4VQW4X8"></script>
+  <script src="/general-settings.js"></script>
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQM6HCT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <div id="cookie-banner" class="cookie-banner">
+    <p>אנו משתמשים בקבצי עוגיות כדי לשפר את חוויית הגלישה. המשך שימוש באתר מהווה הסכמה.</p>
+    <button id="accept-cookies" class="cookie-button">הבנתי</button>
+  </div>
+
+  <footer class="site-footer">
+    <p>© {%- assign year = "now" | date: "%Y" -%} {{ site.author }} - כל הזכויות שמורות</p>
+  </footer>
+
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    kofiWidgetOverlay.draw('nhlocal', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'תמוך בי',
+      'floating-chat.donateButton.background-color': '#0183C4',
+      'floating-chat.donateButton.text-color': '#F3FF28'
+    });
+  </script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

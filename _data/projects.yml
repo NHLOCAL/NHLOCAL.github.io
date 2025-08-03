@@ -1,0 +1,135 @@
+projects:
+  - title: 'ערוץ "זה קל" ביוטיוב'
+    url: 'https://www.youtube.com/@Ze-Kal?utm_source=nhlocal.github.io&utm_medium=referral&utm_campaign=youtube-channel-link'
+    description: 'ערוץ יוטיוב חדשני ללימוד אנגלית, שבו כל התכנים נוצרו באמצעות בינה מלאכותית!'
+    image: 'https://i.ytimg.com/vi/0uCrCUXi7Vo/maxresdefault.jpg'
+    tags: ['AI', 'YouTube', 'וידאו']
+  - title: 'שיר-בוט'
+    url: 'https://shir-bot.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
+    description: 'אתר להורדת שירים בחיפוש חופשי מתוך מאגר עצום של קרוב ל-70,000 שירים.'
+    image: 'photos/shir-bot.png'
+    tags: ['Web', 'מוזיקה']
+  - title: 'ווינדוס 11 23H2 + תוכנות'
+    url: 'https://mitmachim.top/post/741548'
+    description: 'קובץ ISO של Windows 11 מוכן לשימוש, כולל כל התוכנות הבסיסיות להתקנה מהירה.'
+
+    tags: ['Windows', 'ISO', 'מומלץ']
+  - title: 'שמור וזכור'
+    url: 'https://shamor-zachor.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
+    description: 'כלי ייחודי למעקב אחר לימוד ספרות תורנית בצורה מסודרת וברורה.'
+    image: 'https://github.com/NHLOCAL/Shamor-Zachor/blob/main/assets/screen.png?raw=true'
+    tags: ['Web', 'לימוד']
+  - title: 'מסדר הסינגלים'
+    url: 'https://singles-sorter.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
+    description: 'תוכנה לארגון אוטומטי של אוסף המוזיקה שלכם. ממיינת קבצים לתיקיות לפי שם אמן.'
+    image: 'https://github.com/NHLOCAL/Singles-Sorter/blob/main/versions.data/program-screen.png?raw=true'
+    tags: ['Windows', 'מוזיקה', 'תוכנה']
+  - title: 'זה קל!'
+    url: 'https://ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
+    description: 'אתר שמנגיש מונחי טכנולוגיה ומחשבים בעברית בצורה פשוטה וברורה.'
+    image: 'https://nhlocal.github.io/ZeKal/assets/images/preview.png'
+    tags: ['Web', 'לימוד']
+  - title: 'AiTimeline'
+    url: 'https://nhlocal.github.io/AiTimeline/?utm_source=nhlocal.github.io&utm_medium=site'
+    description: 'ציר זמן של אירועים בולטים בתחום הבינה המלאכותית הגנרטיבית בין 2022-2024.'
+    image: 'https://nhlocal.github.io/AiTimeline/assets/preview.png'
+    tags: ['Web', 'AI']
+  - title: 'מסדר ההורדות'
+    url: 'https://github.com/NHLOCAL/File-Sorter'
+    description: 'סקריפט לסידור תיקיית ההורדות (וכל תיקיה אחרת) לפי סוגי קבצים.'
+    image: 'https://user-images.githubusercontent.com/95597943/185516702-db03f12d-d202-466d-9211-f13813bd5736.png'
+    tags: ['סקריפט', 'Windows', 'מומלץ']
+  - title: 'מושך התמונות'
+    url: 'https://github.com/NHLOCAL/Pulls-pictures'
+    description: 'מוציא את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב.'
+
+    tags: ['סקריפט', 'Windows']
+  - title: 'מוצא הכפולים'
+    url: 'https://github.com/NHLOCAL/Doubles-Finder'
+    description: 'סקריפטים למציאת קבצי מוזיקה כפולים במחשב, לפינוי מקום וסדר באוסף.'
+
+    tags: ['סקריפט', 'מוזיקה']
+  - title: 'Is This Bible?'
+    url: 'https://github.com/NHLOCAL/is-this-bible'
+    description: 'מודל AI המזהה אם פסוק נתון הוא מהתנ"ך, עם רמת דיוק גבוהה בעברית.'
+
+    tags: ['AI', 'Python']
+  - title: 'Music Automatic'
+    url: 'https://github.com/NHLOCAL/Music-Automatic'
+    description: 'כלי לסידור אוטומטי של תיקיות מוזיקה באמצעות אוטומציה מתקדמת (בבנייה).'
+
+    tags: ['תוכנה', 'מוזיקה']
+  - title: 'הגלקסיה הקטנה'
+    url: 'https://nhlocal.github.io/TheLittleGalaxy/'
+    description: 'משחק דפדפן אינטראקטיבי המאפשר שיטוט וחקר ביקום של הנסיך הקטן.'
+    image: 'https://nhlocal.github.io/TheLittleGalaxy/assets/preview.png'
+    tags: ['Web', 'משחק']
+  - title: 'מסייע הגיבוי'
+    url: 'https://github.com/NHLOCAL/backup-assistant'
+    description: 'סקריפט לביצוע גיבוי "מראה" בין תיקיות, זמין גם בגרסה גרפית למחצה.'
+    image: 'https://github.com/NHLOCAL/backup-assistant/raw/main/info/%D7%93%D7%95%D7%92%D7%9E%D7%90.bmp?raw=true'
+    tags: ['סקריפט', 'גיבוי']
+  - title: 'ג''יבריש לעברית'
+    url: 'https://github.com/NHLOCAL/jibrish-to-hebrew'
+    description: 'פונקציה הממירה טקסט עברי משובש (שהוקלד באנגלית) לעברית תקנית.'
+
+    tags: ['Python', 'כלי']
+  - title: 'מעתיק קבצים ל-WSA'
+    url: 'https://github.com/NHLOCAL/copy-to-wsa'
+    description: 'מוסיף לתפריט ההקשר אפשרות להעתקת קבצים לתוך Windows Subsystem for Android.'
+
+    tags: ['Windows', 'WSA']
+  - title: 'בודק קיום קבצים'
+    url: 'https://github.com/NHLOCAL/check-if-exists'
+    description: 'פונקציה הבודקת אם רשימת קבצים מסוימת כבר קיימת במחשב.'
+
+    tags: ['Python', 'כלי']
+  - title: 'מעצב האצווה'
+    url: 'https://github.com/NHLOCAL/batch-designer'
+    description: 'מסייע בעיצוב סקריפטים בעברית על ידי היפוך וכיוון הטקסט בחלון.'
+    image: 'https://github.com/NHLOCAL/batch-designer/blob/main/inside/יעד.png?raw=true'
+    tags: ['סקריפט', 'כלי']
+  - title: 'הופך הכתב'
+    url: 'https://mitmachim.top/post/461914'
+    description: 'סקריפט ההופך מחרוזות טקסט מהסוף להתחלה, שימושי לקבצי באט בעברית.'
+
+    tags: ['סקריפט', 'כלי']
+  - title: 'יוצר האייקונים'
+    url: 'https://mitmachim.top/post/430450'
+    description: 'סקריפט קטן היוצר סמל (אייקון) מותאם אישית לדיסקים וכוננים חיצוניים.'
+
+    tags: ['סקריפט', 'Windows']
+  - title: 'מזהה גרסת קובץ ISO'
+    url: 'https://mitmachim.top/post/443502'
+    description: 'סקריפט המזהה את גרסת ה-Windows מתוך קובץ ISO, גם ללא שם מפורש.'
+
+    tags: ['סקריפט', 'Windows', 'ISO']
+  - title: 'מבטל חסימת קבצים'
+    url: 'https://mitmachim.top/post/444231'
+    description: 'מבטל חסימה אוטומטית של קבצים שהורדו מהרשת, ומאפשר פתיחה ללא אזהרות.'
+
+    tags: ['סקריפט', 'Windows']
+  - title: 'מסייע ההורדה'
+    url: 'https://mitmachim.top/post/473833'
+    description: 'סקריפט פשוט להורדת קבצים העוקף חסימות ומאפשר סגירת הדפדפן באמצע.'
+    tags: ['סקריפט', 'כלי']
+  - title: 'מעלים קבצי מערכת בנגן'
+    url: 'https://mitmachim.top/post/440975'
+    description: 'מסתיר קבצי מערכת בנגני מוזיקה, כדי למנוע הופעת קבצים לא רצויים.'
+
+    tags: ['סקריפט', 'מוזיקה']
+  - title: 'משדרג הקישורים'
+    url: 'https://mitmachim.top/post/467641'
+    description: 'ממיר קישורי Google Drive לקישורי הורדה ישירה או צפייה ללא עריכה.'
+
+    tags: ['סקריפט', 'Web']
+  - title: 'מנקה סל המחזור'
+    url: 'https://mitmachim.top/post/411753'
+    description: 'מאפשר ניקוי מלא של סל המחזור בדיסקים חיצוניים, גם מקבצים שנמחקו במחשבים אחרים.'
+
+    tags: ['סקריפט', 'Windows']
+  - title: 'מבטל הגנת כתיבה להתקנים'
+    url: 'https://mitmachim.top/post/426181'
+    description: 'מאפשר ביטול הגנת כתיבה על התקני USB וכוננים נשלפים במקרה הצורך.'
+
+    tags: ['סקריפט', 'Windows']
