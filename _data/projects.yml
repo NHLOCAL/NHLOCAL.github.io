@@ -12,7 +12,6 @@ projects:
   - title: 'ווינדוס 11 23H2 + תוכנות'
     url: 'https://mitmachim.top/post/741548'
     description: 'קובץ ISO של Windows 11 מוכן לשימוש, כולל כל התוכנות הבסיסיות להתקנה מהירה. מאות משתמשים כבר הורידו והתקינו!'
-
     tags: ['Windows', 'ISO', 'מומלץ']
   - title: 'שמור וזכור'
     url: 'https://shamor-zachor.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
@@ -42,22 +41,18 @@ projects:
   - title: 'מושך התמונות'
     url: 'https://github.com/NHLOCAL/Pulls-pictures'
     description: 'סקריפט קטן וקל משקל השולף את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב'
-
     tags: ['סקריפט', 'Windows']
   - title: 'מוצא הכפולים'
     url: 'https://github.com/NHLOCAL/Doubles-Finder'
     description: 'סקריפטים למציאת קבצי מוזיקה כפולים במחשב, לפינוי מקום וסדר באוסף'
-
     tags: ['סקריפט', 'מוזיקה']
   - title: 'Is This Bible?'
     url: 'https://github.com/NHLOCAL/is-this-bible'
     description: 'מודל AI המזהה אם פסוק נתון הוא מהתנ"ך, עם רמת דיוק גבוהה בעברית'
-
     tags: ['AI', 'Python']
   - title: 'Music Automatic'
     url: 'https://github.com/NHLOCAL/Music-Automatic'
     description: 'כלי לסידור אוטומטי של תיקיות מוזיקה באמצעות אוטומציה מתקדמת (בבנייה)'
-
     tags: ['תוכנה', 'מוזיקה']
   - title: 'הגלקסיה הקטנה'
     url: 'https://nhlocal.github.io/TheLittleGalaxy/'
@@ -72,17 +67,14 @@ projects:
   - title: 'ג''יבריש לעברית'
     url: 'https://github.com/NHLOCAL/jibrish-to-hebrew'
     description: 'פונקציה הממירה טקסט עברי משובש לעברית תקנית. מתאים במיוחד עבור קבצי mp3 ישנים'
-
     tags: ['Python', 'כלי']
   - title: 'מעתיק קבצים ל-WSA'
     url: 'https://github.com/NHLOCAL/copy-to-wsa'
     description: 'מוסיף לתפריט ההקשר אפשרות להעתקת קבצים לתוך Windows Subsystem for Android'
-
     tags: ['Windows', 'WSA']
   - title: 'בודק קיום קבצים'
     url: 'https://github.com/NHLOCAL/check-if-exists'
-    description: 'סקריפט פייתון קטן הבודק אם רשימת קבצים מסוימת כבר קיימת בתיקית היעד. מה שמאפשר למנוע העתקה כפולה של קבצים'
-
+    description: 'סקריפט פייתון הבודק אם רשימת קבצים מסוימת כבר קיימת בתיקית היעד. מה שמאפשר למנוע העתקה כפולה של קבצים'
     tags: ['Python', 'כלי']
   - title: 'מעצב האצווה'
     url: 'https://github.com/NHLOCAL/batch-designer'
@@ -92,44 +84,36 @@ projects:
   - title: 'הופך הכתב'
     url: 'https://mitmachim.top/post/461914'
     description: 'סקריפט ההופך מחרוזות טקסט מהסוף להתחלה, שימושי לקבצי באט בעברית'
-
     tags: ['סקריפט', 'כלי']
   - title: 'יוצר האייקונים'
     url: 'https://mitmachim.top/post/430450'
     description: 'סקריפט קטן היוצר אייקון מותאם אישית לדיסק און קי וכוננים חיצוניים'
-
     tags: ['סקריפט', 'Windows']
   - title: 'מזהה גרסת קובץ ISO'
     url: 'https://mitmachim.top/post/443502'
     description: 'סקריפט המזהה את גרסת ה-Windows מתוך קובץ ISO, גם כשהמידע לא מופיע בשם הקובץ'
-
     tags: ['סקריפט', 'Windows', 'ISO']
   - title: 'מבטל חסימת קבצים'
     url: 'https://mitmachim.top/post/444231'
-    description: 'מבטל חסימה אוטומטית של קבצים שהורדו מהרשת, ומאפשר פתיחה ללא אזהרות'
-
+    description: 'מבטל חסימה אוטומטית של קבצים שהורדו מהרשת, ומאפשר פתיחת הקבצים ללא אזהרות'
     tags: ['סקריפט', 'Windows']
   - title: 'מסייע ההורדה'
     url: 'https://mitmachim.top/post/473833'
-    description: 'סקריפט פשוט להורדת קבצים העוקף חסימות ומאפשר סגירת הדפדפן באמצע'
+    description: 'סקריפט פשוט להורדת קבצים העוקף חסימת אנטי וירוס, ומאפשר הורדה ללא דפדפן'
     tags: ['סקריפט', 'כלי']
   - title: 'מעלים קבצי מערכת בנגן'
     url: 'https://mitmachim.top/post/440975'
-    description: 'מסתיר קבצי מערכת בנגני מוזיקה, כדי למנוע הופעת קבצים לא רצויים'
-
+    description: 'מסתיר קבצי מערכת בנגני מוזיקה, כדי למנוע הצגת קבצים לא רצויים'
     tags: ['סקריפט', 'מוזיקה']
   - title: 'משדרג הקישורים'
     url: 'https://mitmachim.top/post/467641'
     description: 'ממיר קישורי Google Drive לקישורי הורדה ישירה או צפייה ללא עריכה'
-
     tags: ['סקריפט', 'Web']
   - title: 'מנקה סל המחזור'
     url: 'https://mitmachim.top/post/411753'
-    description: 'מאפשר ניקוי מלא של סל המחזור בדיסקים חיצוניים, גם מקבצים שנמחקו במחשבים אחרים'
-
+    description: 'מאפשר ניקוי מלא של סל המחזור בכוננים חיצוניים, גם מקבצים שנמחקו במחשבים אחרים'
     tags: ['סקריפט', 'Windows']
-  - title: 'מבטל הגנת כתיבה להתקנים'
+  - title: 'מגדיר הגנת כתיבה להתקנים'
     url: 'https://mitmachim.top/post/426181'
-    description: 'מאפשר ביטול הגנת כתיבה על התקני USB וכוננים נשלפים במקרה הצורך'
-
+    description: 'מאפשר הפעלה וביטול של הגנת כתיבה עבור התקני USB וכוננים נשלפים'
     tags: ['סקריפט', 'Windows']
