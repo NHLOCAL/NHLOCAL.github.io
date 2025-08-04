@@ -1,10 +1,10 @@
 projects:
-  - title: 'ערוץ "זה קל" ביוטיוב'
+  - title: 'ערוץ היוטיוב "זה קל"'
     url: 'https://www.youtube.com/@Ze-Kal?utm_source=nhlocal.github.io&utm_medium=referral&utm_campaign=youtube-channel-link'
-    description: 'ערוץ יוטיוב חדשני ללימוד אנגלית, שבו כל התכנים נוצרו באמצעות בינה מלאכותית!'
+    description: 'ערוץ יוטיוב חדשני ללימוד שפות, שבו כל התכנים נוצרו באמצעות בינה מלאכותית. הערוץ כולל לימוד מושגים בשלבים, סיפורים קצרים ומרתקים, שירים עם כתוביות וסרטוני שורטס'
     image: 'https://i.ytimg.com/vi/0uCrCUXi7Vo/maxresdefault.jpg'
     tags: ['AI', 'YouTube', 'וידאו']
-  - title: 'שיר-בוט'
+  - title: 'שיר בוט'
     url: 'https://shir-bot.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
     description: "גלו אמנים פופולריים ושירים חדשים במאגר המוזיקה היהודית הגדול. חיפוש והורדה קלה של שירים מכל הז'אנרים"
     image: 'photos/shir-bot.png'
