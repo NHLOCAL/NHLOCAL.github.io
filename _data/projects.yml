@@ -1,4 +1,14 @@
 projects:
+  - title: 'תמלול שיעורי תורה'
+    url: 'https://huggingface.co/spaces/NHLOCAL/gemini-subtitle-creator'
+    description: 'מרחב חינמי המאפשר העלאת קובץ שמע או וידאו וקבלת תמלול מלא שלו. המערכת היא הטובה ביותר מסוגה לתמלול שיעורי תורה'
+    image: 'photos/tora-transcribe.png'
+    tags: ['AI', 'וידאו', 'תמלול']
+  - title: 'ווינדוס 11 23H2 + תוכנות'
+    url: 'https://mitmachim.top/post/741548'
+    description: 'קובץ ISO של Windows 11 מוכן לשימוש, כולל כל התוכנות הבסיסיות להתקנה מהירה. מאות משתמשים כבר הורידו והתקינו!'
+    image: 'photos/windows-11-iso.webp'
+    tags: ['Windows', 'ISO', 'מומלץ']
   - title: 'ערוץ היוטיוב "זה קל"'
     url: 'https://www.youtube.com/@Ze-Kal?utm_source=nhlocal.github.io&utm_medium=referral&utm_campaign=youtube-channel-link'
     description: 'ערוץ יוטיוב חדשני ללימוד שפות, שבו כל התכנים נוצרו באמצעות בינה מלאכותית. הערוץ כולל לימוד מושגים בשלבים, סיפורים קצרים ומרתקים, שירים עם כתוביות וסרטוני שורטס'
@@ -9,11 +19,6 @@ projects:
     description: "גלו אמנים פופולריים ושירים חדשים במאגר המוזיקה היהודית הגדול. חיפוש והורדה קלה של שירים מכל הז'אנרים"
     image: 'photos/shir-bot.png'
     tags: ['Web', 'מוזיקה']
-  - title: 'ווינדוס 11 23H2 + תוכנות'
-    url: 'https://mitmachim.top/post/741548'
-    description: 'קובץ ISO של Windows 11 מוכן לשימוש, כולל כל התוכנות הבסיסיות להתקנה מהירה. מאות משתמשים כבר הורידו והתקינו!'
-    image: 'photos/windows-11-iso.webp'
-    tags: ['Windows', 'ISO', 'מומלץ']
   - title: 'שמור וזכור'
     url: 'https://shamor-zachor.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
     description: 'כלי ייחודי המאפשר לעקוב אחר ההתקדמות במגוון רחב של ספרים מארון הספרים היהודי, כולל חזרות, ומציג את הנתונים בממשק פשוט וידידותי למשתמש'
@@ -29,6 +34,11 @@ projects:
     description: 'אתר המנגיש מונחי טכנולוגיה ומחשבים בעברית בצורה פשוטה וברורה'
     image: 'https://nhlocal.github.io/ZeKal/assets/images/preview.png'
     tags: ['Web', 'לימוד']
+  - title: 'מושך התמונות'
+    url: 'https://github.com/NHLOCAL/Pulls-pictures'
+    description: 'סקריפט קטן וקל משקל השולף את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב'
+    image: 'photos/pulls-pictures.webp'
+    tags: ['סקריפט', 'Windows']
   - title: 'AiTimeline'
     url: 'https://nhlocal.github.io/AiTimeline/?utm_source=nhlocal.github.io&utm_medium=site'
     description: 'ציר זמן של אירועים בולטים בתחום הבינה המלאכותית הגנרטיבית החל מהופעת GPT 3 ועד היום'
@@ -39,23 +49,6 @@ projects:
     description: 'סקריפט לסידור תיקיית ההורדות (וכל תיקיה אחרת) לפי סוגי קבצים'
     image: 'https://user-images.githubusercontent.com/95597943/185516702-db03f12d-d202-466d-9211-f13813bd5736.png'
     tags: ['סקריפט', 'Windows', 'מומלץ']
-  - title: 'מושך התמונות'
-    url: 'https://github.com/NHLOCAL/Pulls-pictures'
-    description: 'סקריפט קטן וקל משקל השולף את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב'
-    image: 'photos/pulls-pictures.webp'
-    tags: ['סקריפט', 'Windows']
-  - title: 'מוצא הכפולים'
-    url: 'https://github.com/NHLOCAL/Doubles-Finder'
-    description: 'סקריפטים למציאת קבצי מוזיקה כפולים במחשב, לפינוי מקום וסדר באוסף'
-    tags: ['סקריפט', 'מוזיקה']
-  - title: 'Is This Bible?'
-    url: 'https://github.com/NHLOCAL/is-this-bible'
-    description: 'מודל AI המזהה אם פסוק נתון הוא מהתנ"ך, עם רמת דיוק גבוהה בעברית'
-    tags: ['AI', 'Python']
-  - title: 'Music Automatic'
-    url: 'https://github.com/NHLOCAL/Music-Automatic'
-    description: 'כלי לסידור אוטומטי של תיקיות מוזיקה באמצעות אוטומציה מתקדמת (בבנייה)'
-    tags: ['תוכנה', 'מוזיקה']
   - title: 'הגלקסיה הקטנה'
     url: 'https://nhlocal.github.io/TheLittleGalaxy/'
     description: 'משחק דפדפן אינטראקטיבי המאפשר שיטוט וחקר ביקום של הנסיך הקטן'
@@ -66,6 +59,18 @@ projects:
     description: 'סקריפט לביצוע גיבוי "מראה" בין תיקיות, זמין גם בגרסה גרפית למחצה'
     image: 'https://github.com/NHLOCAL/backup-assistant/raw/main/info/%D7%93%D7%95%D7%92%D7%9E%D7%90.bmp?raw=true'
     tags: ['סקריפט', 'גיבוי']
+  - title: 'מוצא הכפולים'
+    url: 'https://github.com/NHLOCAL/Doubles-Finder'
+    description: 'סקריפטים למציאת קבצי מוזיקה כפולים במחשב, לפינוי מקום וסדר באוסף'
+    tags: ['סקריפט', 'מוזיקה']
+  - title: 'Is This Bible?'
+    url: 'https://github.com/NHLOCAL/is-this-bible'
+    description: 'מודל AI המזהה אם פסוק נתון הוא מהתנ"ך, עם רמת דיוק גבוהה בעברית'
+    tags: ['AI', 'Python']
+  - title: 'Music Automatic'
+    url: 'https://github.com/NHLOCAL/Music-Automatic'
+    description: 'כלי לסידור אוטומטי של תיקיות מוזיקה באמצעות אוטומציה מתקדמת (בתהליך בנייה מתמשך)'
+    tags: ['תוכנה', 'מוזיקה']
   - title: 'ג''יבריש לעברית'
     url: 'https://github.com/NHLOCAL/jibrish-to-hebrew'
     description: 'פונקציה הממירה טקסט עברי משובש לעברית תקנית. מתאים במיוחד עבור קבצי mp3 ישנים'
