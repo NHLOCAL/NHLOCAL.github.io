@@ -42,6 +42,7 @@ projects:
   - title: 'מושך התמונות'
     url: 'https://github.com/NHLOCAL/Pulls-pictures'
     description: 'סקריפט קטן וקל משקל השולף את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב'
+    image: 'photos/pulls-pictures.webp'
     tags: ['סקריפט', 'Windows']
   - title: 'מוצא הכפולים'
     url: 'https://github.com/NHLOCAL/Doubles-Finder'
