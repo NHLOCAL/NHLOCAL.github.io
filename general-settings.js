@@ -9,11 +9,23 @@ if (window.location.hostname.endsWith('nhlocal.github.io') || window.location.ho
       });
     };
 
-    // מעקב גוגל (gtag.js) - פעיל
+    // ================= מעקב גוגל (gtag.js) - גרסה מלאה ותקינה =================
+    // 1. הגדרת התור (dataLayer) והפונקציה (gtag)
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-TGD4VQW4X8');
+
+    // 2. החלק החסר: טעינת ספריית המעקב של גוגל באופן דינמי
+    (function() {
+        var ga = document.createElement('script'); 
+        ga.type = 'text/javascript'; 
+        ga.async = true;
+        ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-TGD4VQW4X8';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    // ===========================================================================
 
 
     /* === GTM Snippet - מוער (לא פעיל) ===
