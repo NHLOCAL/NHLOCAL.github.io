@@ -1,14 +1,5 @@
 if (window.location.hostname.endsWith('nhlocal.github.io') || window.location.hostname.endsWith('ze-kal.top')) {
-
-    // ================= מניעת רישום כפול =================
-    // בדיקה האם קוד המעקב כבר הופעל. אם כן, יוצאים מהפונקציה.
-    if (window.isTrackingInitialized) {
-        return; 
-    }
-    // אם לא, מסמנים שהקוד מופעל כעת כדי למנוע ריצה נוספת.
-    window.isTrackingInitialized = true;
-    // ====================================================
-
+    
     // רישום אירוע עבור ניתוח גוגל
     function conversion_music_drive() {
       gtag('event', 'Registration', {
@@ -25,7 +16,7 @@ if (window.location.hostname.endsWith('nhlocal.github.io') || window.location.ho
     gtag('js', new Date());
     gtag('config', 'G-TGD4VQW4X8');
 
-    // 2. טעינת ספריית המעקב של גוגל באופן דינמי
+    // 2. החלק החסר: טעינת ספריית המעקב של גוגל באופן דינמי
     (function() {
         var ga = document.createElement('script'); 
         ga.type = 'text/javascript'; 
