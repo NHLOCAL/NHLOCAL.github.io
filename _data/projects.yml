@@ -1,8 +1,8 @@
 projects:
-  - title: 'תמלול שיעורי תורה'
-    url: 'https://huggingface.co/spaces/NHLOCAL/gemini-subtitle-creator'
-    description: 'מרחב חינמי המאפשר העלאת קובץ שמע או וידאו וקבלת תמלול מלא שלו. המערכת היא הטובה ביותר מסוגה לתמלול שיעורי תורה'
-    image: 'photos/tora-transcribe.png'
+  - title: 'אלף בוט'
+    url: 'https://alef-bot.top?utm_source=nhlocal.github.io&utm_medium=site'
+    description: 'אלף בוט היא פלטפורמת תמלול AI חכמה ליוצרי תוכן תורני. הפוך שיעורי תורה, הרצאות ופודקאסטים לטקסט ערוך ומדויק, וחסוך שעות יקרות של עבודה'
+    image: 'photos/alef-bot.png'
     tags: ['AI', 'וידאו', 'תמלול']
     
   - title: 'קול השיעורים'
