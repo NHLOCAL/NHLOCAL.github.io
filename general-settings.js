@@ -3,7 +3,7 @@
 
   var measurementByHost = {
     'nhlocal.github.io': 'G-TGD4VQW4X8',
-    'ze-kal.top': 'G-TGD4VQW4X8'
+    'ze-kal.top': 'GT-JFQGQKXV'
   };
 
   var measurementId = measurementByHost[host];
