@@ -42,9 +42,10 @@ projects:
     tags: ['Windows', 'מוזיקה', 'תוכנה']
   - title: 'זה קל!'
     url: 'https://ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
-    description: 'אתר המנגיש מונחי טכנולוגיה ומחשבים בעברית בצורה פשוטה וברורה'
-    image: 'https://nhlocal.github.io/ZeKal/assets/images/preview.png'
-    tags: ['Web', 'לימוד']
+    description: 'הבית לכל הפרויקטים מבית NH LOCAL: כלי AI ותמלול, מוזיקה, תוכנות למחשב ומדריכים בעברית. אפשר לחפש ולסנן בקלות כדי להגיע לכלי המתאים'
+    image: 'https://ze-kal.top/assets/images/brand-icon.png'
+    tags: ['Web', 'כלים', 'פרויקטים']
+    spotlight: true
   - title: 'מושך התמונות'
     url: 'https://github.com/NHLOCAL/Pulls-pictures'
     description: 'סקריפט קטן וקל משקל השולף את תמונות מסך הנעילה של Windows ותמונות Bing Wallpaper לתיקיה במחשב'

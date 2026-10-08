@@ -21,6 +21,37 @@ layout: default
 </header>
 
 <main>
+  {% assign spotlight_project = site.data.projects.projects | where: "spotlight", true | first %}
+  {% if spotlight_project %}
+  <section class="section site-spotlight-section" aria-labelledby="site-spotlight-title">
+    <a href="{{ spotlight_project.url }}" target="_blank" rel="noopener" class="site-spotlight">
+      <div class="site-spotlight-copy">
+        <span class="site-spotlight-kicker">שער הפרויקטים מבית NH LOCAL</span>
+        <h2 id="site-spotlight-title">{{ spotlight_project.title }}<span>כל הפרויקטים, במקום אחד.</span></h2>
+        <p>{{ spotlight_project.description }}</p>
+        <span class="site-spotlight-action">לגלות את האתר <i class="fas fa-arrow-up-left" aria-hidden="true"></i></span>
+      </div>
+      <div class="site-spotlight-illustration" aria-hidden="true">
+        <div class="site-spotlight-main-icon">
+          <img src="{{ spotlight_project.image }}" alt="" width="132" height="132" decoding="async">
+        </div>
+        <div class="site-spotlight-project site-spotlight-project-one">
+          <img src="https://ze-kal.top/assets/images/projects/alef-bot.png" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="site-spotlight-project site-spotlight-project-two">
+          <img src="https://ze-kal.top/assets/images/projects/tools.png" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="site-spotlight-project site-spotlight-project-three">
+          <img src="https://ze-kal.top/assets/images/projects/shir-bot.png" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="site-spotlight-project site-spotlight-project-four">
+          <img src="https://ze-kal.top/assets/images/projects/singles-sorter.png" alt="" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </a>
+  </section>
+  {% endif %}
+
   <section class="section">
     <div class="highlight-grid">
       <a href="https://tools.ze-kal.top" target="_blank" rel="noopener" class="highlight-card">
@@ -44,6 +75,7 @@ layout: default
     </div>
     <div class="project-grid">
       {% for project in site.data.projects.projects %}
+        {% unless project.spotlight %}
         <a href="{{ project.url }}" target="_blank" rel="noopener" class="project-card">
           {% if project.image and project.image != '' %}
             <div class="card-image-wrapper">
@@ -66,6 +98,7 @@ layout: default
             {% endif %}
           </div>
         </a>
+        {% endunless %}
       {% endfor %}
     </div>
   </section>
