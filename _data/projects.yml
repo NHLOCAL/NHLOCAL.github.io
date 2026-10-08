@@ -27,7 +27,7 @@ projects:
     tags: ['Web', 'מוזיקה']
   - title: 'Net Flow'
     url: 'https://github.com/NHLOCAL/net_flow'
-    description: 'דפדפן Android קליל בעברית, המותאם גם לגלישה מסוננת כמו נטפרי. עם חיפוש מהיר, סימניות וסרגל ניווט קומפקטי שמשאיר יותר מקום לאתרים'
+    description: 'דפדפן Android קליל בעברית, שמתאים במיוחד לטלפונים עם מסך קטן או חצי טאצ׳ ולגלישה מסוננת כמו נטפרי. כולל חיפוש מהיר, סימניות וסרגל ניווט קומפקטי שמשאיר יותר מקום לאתרים'
     image: 'https://github.com/NHLOCAL/net_flow/blob/main/screen.png?raw=true'
     tags: ['Android', 'דפדפן', 'נטפרי']
   - title: 'שמור וזכור'
