@@ -25,6 +25,11 @@ projects:
     description: "גלו אמנים פופולריים ושירים חדשים במאגר המוזיקה היהודית הגדול. חיפוש והורדה קלה של שירים מכל הז'אנרים"
     image: 'photos/shir-bot.png'
     tags: ['Web', 'מוזיקה']
+  - title: 'Net Flow'
+    url: 'https://github.com/NHLOCAL/net_flow'
+    description: 'דפדפן Android קליל בעברית, המותאם גם לגלישה מסוננת כמו נטפרי. עם חיפוש מהיר, סימניות וסרגל ניווט קומפקטי שמשאיר יותר מקום לאתרים'
+    image: 'https://github.com/NHLOCAL/net_flow/blob/main/screen.png?raw=true'
+    tags: ['Android', 'דפדפן', 'נטפרי']
   - title: 'שמור וזכור'
     url: 'https://shamor-zachor.ze-kal.top?utm_source=nhlocal.github.io&utm_medium=site'
     description: 'כלי ייחודי המאפשר לעקוב אחר ההתקדמות במגוון רחב של ספרים מארון הספרים היהודי, כולל חזרות, ומציג את הנתונים בממשק פשוט וידידותי למשתמש'
