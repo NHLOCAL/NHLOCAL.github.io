@@ -52,6 +52,16 @@
             background-color: #0056b3;
         }
     </style>
+    <script>
+      // Redirect legacy Shir Bot URLs even if they reach this site's 404 fallback.
+      (function () {
+        var path = window.location.pathname;
+        if (path === '/shir-bot' || path === '/shir-bot/' || path.startsWith('/shir-bot/')) {
+          var remainingPath = path.slice('/shir-bot'.length) || '/';
+          window.location.replace('https://shir-bot.ze-kal.top' + remainingPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
 </head>
 <body>
     <div class="main">
